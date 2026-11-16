@@ -1,0 +1,33 @@
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Cache de testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de configuração local
+.env
+.env.*
+!.env.example
+
+# Dados locais
+data/raw/
+data/processed/
+
+# Arquivos temporários
+.DS_Store
+*.log
+
+# Configurações locais de editores
+.vscode/
+.idea/
